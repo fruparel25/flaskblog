@@ -1,10 +1,10 @@
 {%extends "layout.html" %}
 {% block content %}
-	<div class="content-section">
+	<div class="content-section" style="background-color: rgb(230,220,240);">
 		<form method="POST" action="">
 			{{form.hidden_tag()}}
 			<fieldset class="form-group">
-				<legend class="border-bottom mb-4">Log In</legend>
+				<legend class="border-bottom mb-4 text-info" style="color:#008B8B"><b>Log In</b></legend>
 				<div class="form-group">
 					{{form.email.label(class="form-control-label")}}
 					{% if form.email.errors %}
@@ -44,9 +44,9 @@
 			</div>
 		</form>
 	</div>
-	<div class="border-top pt-3">
-		<small class="text-muted">
-			Need An Account?<a class="ml-2" href="{{url_for('users.register')}}">Sign Up Now</a>
+	<div class="border-top pt-3" >
+		<small class="text-muted" ><b><font color="#696969">
+			Need An Account?</font><a class="ml-2" href="{{url_for('users.register')}}">Sign Up Here</a></b>
 		</small>
 	</div>
 {% endblock content %}

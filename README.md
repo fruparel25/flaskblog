@@ -1,6 +1,6 @@
 # flaskblog
 
-A Website using Flask Web framework where user where user can register oneself, login, post, delete the blogs as per their area of interest and can reset password.
+A Website using Flask Web framework where user can register oneself, login, post, delete the blogs as per their area of interest and can reset password.
 
 FRONTEND: HTML,CSS,BOOTSTRAP
 

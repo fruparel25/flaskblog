@@ -8,6 +8,6 @@ BACKEND: python,flask,gunicorn
 
 **#Url of the website!**
 
-You Can test And view the Website from here 
+You Can test And view the Website here 
 
 https://prayer-for-deployment2.herokuapp.com/
